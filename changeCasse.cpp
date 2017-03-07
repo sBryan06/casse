@@ -4,7 +4,8 @@
 #include <iostream>
 int main()
 {
-    std::string texte = "Toto, Tata";
+  //utilisation de lentree standard
+  std::string texte = std::cin;
     // change les minuscules par des majuscules et réciproquement
     for (char & c : texte)
     {
